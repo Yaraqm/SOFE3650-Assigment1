@@ -1,3 +1,15 @@
+/*
+ * File: GroceryStoreTest.java
+ * Authors: Yara Mahmoud (100851246), Zainab Ahmed (100868502), Rushda Khan (100865307)
+ * Lab CRN: 43963
+ * Group Number: 5
+ * Date: 2024-09-29
+ * 
+ * Description:
+ * Test class for demonstrating the creation of grocery products using factories 
+ * and displaying their prices. Prices are loaded from an external file.
+ */
+
 import java.io.IOException;
 
 public class GroceryStoreTest {
