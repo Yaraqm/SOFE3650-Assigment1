@@ -1,8 +1,9 @@
 # SOFE3650-Assigment1
 Design Patterns Assignment for Software Design and Architecture
 
-Yara Mahmoud
-100851246
+Yara Mahmoud - 100851246
+Rushda Khan - 100865307
+Zainab Ahmed - 100868502
 
 This ReadMe file will first outline the structure of this repository, it will then overview the UML diagram that was developed and used to create the code contained within this repository, and finally it will describe the test methods I developed and show the results of their execution.
 
