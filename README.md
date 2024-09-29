@@ -33,7 +33,7 @@ Next comes the Vegetable interface and the Bread interface, they are each the ba
 ![image](https://github.com/user-attachments/assets/56d0ddc8-1840-492c-b8c9-11b3388c557c)
 
 
-**Test Methods**
+**Test Methods:**
 In order to test our program we created the GroceryStoreTest class, the primary focus is on testing the functionality of the Abstract Factory and Factory Method patterns, as well as validating the ability to read product prices from a file. Here's a breakdown of the test methods and their purposes:
 
  - **Loading Prices from a File (PriceReader.loadPrices):** The first step in the test involves loading product prices from a file (prices.txt) using the PriceReader utility class. This step ensures that the prices are read correctly from the external file and mapped to the corresponding product names.
