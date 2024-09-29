@@ -20,6 +20,8 @@ This repository has three main parts:
 - The TestFiles folder that contains a test driver file, a file containing sample test price values, and a file that holds the code that assists in reading the test values.
 - Finally the ReadMe file as well as the UML class diagram itself.
 
+In order to utilize the program contained in this repository all files withing the SourceFiles folder and teh TestFiles folder should be saved to one folder before attempting to run the test class.
+
 **UML Class Diagram:**
 This UML diagram is an implementation of the Factory Method Pattern, designed to model a system for creating different grocery products and their corresponding factories.
 
