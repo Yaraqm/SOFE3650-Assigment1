@@ -1,6 +1,2 @@
-# File: prices.txt
-# Description: Contains product names and their corresponding prices in the format "ProductName:Price".
-# Format: Each line represents a product and its price, separated by a colon.
-
 Carrot:0.99
 Bagel:1.52
