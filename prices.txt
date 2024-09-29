@@ -1,0 +1,2 @@
+Carrot:0.99
+Bagel:1.52
