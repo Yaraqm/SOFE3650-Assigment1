@@ -21,9 +21,16 @@ This repository has three main parts:
 **UML Class Diagram:**
 This UML diagram is an implementation of the Factory Method Pattern, designed to model a system for creating different grocery products and their corresponding factories.
 
-The GroceryProductFactory is an abstract interface class that serves as the base for specific factory types (such as the BreadFactory). It declares the methods for groceating the grocery products but the actual creation logic is found within the subclasses. Following the Factory Method Pattern the two concrete factory classes, VegetableFactory and BreadFactory, inherit from GroceryProductFactory and provide the specific implementation for creating their specified products, they each take in the price as an input and return an instance of their product.
+The GroceryProductFactory is an abstract interface class that serves as the base for specific factory types (such as the BreadFactory). It declares the methods for groceating the grocery products but the actual creation logic is found within the subclasses. Following the Factory Method Pattern the two concrete factory classes, VegetableFactory and BreadFactory, inherit from GroceryProductFactory and provide the specific implementation for creating their specified products. They each take in the price as an input and return an instance of their product, there is a Creation Dependency relationship between them and each of their respective products.
 
 Next comes the Vegetable interface and the Bread interface, they are each the base interfaces that must be implemented by products that fall in their category. The concrete product class Carrot implements the Vegetable Interface, while the concrete product class Bagel implements the bread interface, they each provide specific details for a carrot and bagel respectively as well as their price.
 
 
 ![image](https://github.com/user-attachments/assets/56d0ddc8-1840-492c-b8c9-11b3388c557c)
+
+
+**Test Methods**
+In order to test our program we created the GroceryStoreTest class, the primary focus is on testing the functionality of the Abstract Factory and Factory Method patterns, as well as validating the ability to read product prices from a file. Here's a breakdown of the test methods and their purposes:
+ - **Loading Prices from a File (PriceReader.loadPrices):** The first step in the test involves loading product prices from a file (prices.txt) using the PriceReader utility class. This step ensures that the prices are read correctly from the external file and mapped to the corresponding product names.
+ - **Creating Products via Factory Method (createVegetable and createBread):** After loading the prices, we use the GroceryProductFactory interface and its concrete implementations (VegetableFactory and BreadFactory) to create specific products. This demonstrates that the Factory Method pattern is correctly used to instantiate products with dynamic prices. The expected behaviour, and the one we received, was that the Carrot and Bagel objects are created successfully, and their prices are initialized based on the file data.
+ - **Verifying Product Prices (getPrice):** Once the products are created, the getPrice method for each product is tested to verify that the correct prices (from the file) have been assigned. This confirms that the factories are correctly setting the prices.
