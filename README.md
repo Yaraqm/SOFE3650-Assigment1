@@ -39,7 +39,8 @@ In order to test our program we created the GroceryStoreTest class, the primary 
  - **Verifying Product Prices (getPrice):** Once the products are created, the getPrice method for each product is tested to verify that the correct prices (from the file) have been assigned. This confirms that the factories are correctly setting the prices.
 
 The result of running this test class is shown below:
-   ![image](https://github.com/user-attachments/assets/c10e72cc-de63-4894-b9ee-64de56cb5b55)
+
+ ![image](https://github.com/user-attachments/assets/c10e72cc-de63-4894-b9ee-64de56cb5b55)
 
 The correct prices being output with each product effectively demonstrates how the prices are correctly loaded from the price file, the products are made from their respective factories, and that the correct prices were assigned to the correct products, satisfying our key requirements.
 
