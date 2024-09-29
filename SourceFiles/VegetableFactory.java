@@ -1,4 +1,12 @@
-
+/*
+ * File: VegetableFactory.java
+ * Author: Yara Mahmoud (100851246), Zainab Ahmed (100868502), Rushda Khan (100865307)
+ * Date: 2024-09-29
+ * 
+ * Description:
+ * Factory class for creating Vegetable products. Currently, it creates Carrots by default.
+ * Does not support creating bread.
+ */
 
 public class VegetableFactory implements GroceryProductFactory {
     @Override
