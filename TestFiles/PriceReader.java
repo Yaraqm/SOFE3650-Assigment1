@@ -1,3 +1,14 @@
+/*
+ * File: PriceReader.java
+ * Authors: Yara Mahmoud (100851246), Zainab Ahmed (100868502), Rushda Khan (100865307)
+ * Lab CRN: 43963
+ * Group Number: 5
+ * Date: 2024-09-29
+ * 
+ * Description:
+ * Utility class for reading product prices from a file and providing them via a lookup.
+ */
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
